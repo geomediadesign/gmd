@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">      
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="css/style.css">
-     
-     
+
+
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      
-      
+
+
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      
+
 
         <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat+Alternates" rel="stylesheet">
         <script src="/node_modules/readmore-js/readmore.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+	  
+	  
   </head>
 <body>
-    
+
 <!--    navigatie bar -->
 
 
@@ -58,37 +60,54 @@
 -->
     </nav>
 <!--video-->
-    
-    <!-- 16:9 aspect ratio --> 
-<div class="embed-responsive embed-responsive-16by9"> 
+
+    <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
     <video width="320" height="240" autoplay loop muted>
         <source src="img/opendagfilmpje.mp4" type="video/mp4">
     </video>
-</div> 
+</div>
 <!--
- 4:3 aspect ratio  
+ 4:3 aspect ratio
 <div class="embed-responsive embed-responsive-4by3">
     <video width="320" height="240" controls>
         <source src="movie.mp4" type="video/mp4">
     </video>
 </div>
 -->
-    
-    
-    
+
+
+
 <!--masonry-->
 
 
-  
+
 
 <div class="card-columns">
+
+
+  <!--beeld en tekst incl read more-->
+    <div class="card">
+      <!--img class="card-img-top rounded" src="img/wereldwaterdag.jpg" alt="almere water"-->
+      <!-- arcgis webmap embed -->
+        <!--iframe width='100%' height='500px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' title='My Map' src='http://aereshogeschool.maps.arcgis.com/apps/Styler/index.html?appid=97a11074681f4d81b36e2880e7c57a7f&lat=30&lon=-20&zoom=2'></iframe-->
+
+		<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Aeres Almere, internationale studenten 2019-2020" src="//aereshogeschool.maps.arcgis.com/apps/Embed/index.html?webmap=bfd71e9402c54c0492861843e360fe0e&extent=-140,-50,120,70&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe> <small style="position: relative; float: right"><a href="//aereshogeschool.maps.arcgis.com/apps/Embed/index.html?webmap=bfd71e9402c54c0492861843e360fe0e&extent=-140,-50,120,70&zoom=true&scale=true&disable_scroll=true&theme=light" target="_blank">Grote kaart</a></small>
+		
+		
+      <div class="card-body" id="cb">
+        <h4 class="card-title">Internationale minors bij Aeres</h4>
+        <p class="card-text"><small class="text-muted"><span class="more">
+  Bij Aeres hogeschool kun je interessante minors volgen op het gebied van Food, Nature & Urban Green. Ook in Almere zit een groeiende community van internationale studenten. De meeste komen uit Europa, maar we hebben er ook uit de rest van de wereld.</span></small></p>
+      </div>
+    </div>
 
 <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/wereldwaterdag.jpg" alt="almere water">
     <div class="card-body">
       <h4 class="card-title">GMD stage bij gemeente Almere</h4>
-      <p class="card-text"><small class="text-muted"><span class="more">   
+      <p class="card-text"><small class="text-muted"><span class="more">
 De afdeling Stadsruimte
 Almere is de achtste stad van Nederland met de meest uitdagende openbare ruimte van Nederland. Binnen de ontwikkeling en groei van de stad moet de openbare ruimte ook duurzaam, hoogwaardig en efficiënt beheerd worden. De afdeling Stadsruimte van de gemeente Almere werkt met 140 medewerkers samen om het beheer effectief en tegen afgesproken kwaliteit en kosten te doen.
 
@@ -101,10 +120,10 @@ Infra, Water en Kabels en Leidingen. Hier werken technisch beheeradviseurs, tech
 De vakgroep Groen en Spelen is verantwoordelijk voor de programmering en aansturen van de uitvoering. Daarvoor maken we regelmatig gebruik van kaartmateriaal. Denk aan analyse en programmakaarten. Samen met je collega’s ga je aan de slag om data op kaarten presenteer- en communiceerbaar te maken!. Daarnaast ga je ons ondersteunen tijdens projecten.
 
 Wie ben jij?
-Ben jij een enthousiaste HBO-er die zelfstandig kan werken en het leuk vindt om in een dynamische omgeving te werken?. En ben je in staat om technische analyses te maken en die te op creatieve wijze te vertalen in leesbaar kaartmateriaal?. En niet te vergeten.. heb jij ervaring met GIS-pakketten en visualisaties maken waarbij je altijd de eindgebruiker voor ogen hebt?. Dan is dit de ideale stageplek voor jou! 
+Ben jij een enthousiaste HBO-er die zelfstandig kan werken en het leuk vindt om in een dynamische omgeving te werken?. En ben je in staat om technische analyses te maken en die te op creatieve wijze te vertalen in leesbaar kaartmateriaal?. En niet te vergeten.. heb jij ervaring met GIS-pakketten en visualisaties maken waarbij je altijd de eindgebruiker voor ogen hebt?. Dan is dit de ideale stageplek voor jou!
 
 Onze arbeidsvoorwaarden
-Bij stages wordt er een bruto vergoeding van € 350,- per maand gegeven van. De vergoeding is gebaseerd stagetijd van 36 uur per week. Bij een stageomvang van minder dan 36 uur per week wordt de stagevergoeding naar rato berekend. 
+Bij stages wordt er een bruto vergoeding van € 350,- per maand gegeven van. De vergoeding is gebaseerd stagetijd van 36 uur per week. Bij een stageomvang van minder dan 36 uur per week wordt de stagevergoeding naar rato berekend.
 Als je niet in Almere woont en geen OV-jaarkaart hebt komt je in aanmerking voor een reiskostenvergoeding. Als het reizen met het openbaar vervoer niet mogelijk, dan zal - indien met eigen vervoer wordt gereisd - € 0,09 per km worden vergoed. Deze vergoeding wordt op declaratiebasis (maandelijks) betaald.
 
 De kracht van het verschil
@@ -121,7 +140,7 @@ De sluitingsdatum is 1-07-2019. Meer weten? Thea Attevelt vertelt je er graag me
  <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/1gmd_repeat_2019.jpg" alt="Card image cap">
-    
+
     <div class="card-body">
       <h4 class="card-title">serious gaming</h4>
       <p class="card-text"><small class="text-muted"><span class="more">Vandaag een leuke sessie RE:PEAT gedaan met de eerstejaars Geo, media en design.
@@ -130,26 +149,26 @@ Evengoed vliegen me de hele tijd de meest geweldige teksten om de oren, waarvan 
     </div>
     <img class="card-img-bottom rounded" src="img/1GMD_repeat_quotes.jpg" alt="Card image cap">
   </div>
-  
+
 
 
 
 
 <!--video en tekst incl read more-->
    <div class="card">
-    <div class="embed-responsive embed-responsive-16by9"> 
+    <div class="embed-responsive embed-responsive-16by9">
      <video width="320" height="240" controls muted>
         <source src="img/paradijs.mp4" type="video/mp4">
      </video>
-    </div> 
+    </div>
     <div class="card-body">
       <h4 class="card-title">Paradijs in de polder</h4>
       <p class="card-text"><small class="text-muted"><span class="more">Vandaag is Niene van Webmapper hier om een gastles te geven over vectortiling. Ze laat mooe voorbeelden zien. Een project dat voorbij komt is <a href=" hhttps://www.paradijsindepolder.nl/volg-arita">Paradijs in de polder</a>. Geodata is altijd exact. Hoe kun je daar toch een soort van in verdwalen. De kaart is gemaakt in opdracht van Living Landscapes door Niene Boeijen en Bert Spaan. Het is een spannende kaart geworden op het snijvlak van cartografie en kunst. Een mooi gegeven waar je als GMD'er wel mee aan de slag kan.
        </span></small></p>
      </div>
    </div>
- 
-  
+
+
 
 
 
@@ -162,44 +181,44 @@ Evengoed vliegen me de hele tijd de meest geweldige teksten om de oren, waarvan 
       <a href="#kepler" class="stretched-link"></a>
     </div>
   </div>
-  
-  
-  
+
+
+
 
 <!--video en tekst incl read more-->
   <div class="card">
-    <div class="embed-responsive embed-responsive-16by9"> 
+    <div class="embed-responsive embed-responsive-16by9">
     <video width="320" height="240" controls muted>
         <source src="img/1GMD1819.mp4" type="video/mp4">
     </video>
-</div> 
+</div>
     <div class="card-body">
       <h4 class="card-title">Eerstejaars en vrije tijd?</h4>
       <p class="card-text"><small class="text-muted"><span class="more">Laat eens zien wat jullie als eerstejaars doen na school. Maak daar een video van. Dat was de opdracht bij het vak Toegepast Nederlands waar talige beroepsproducten worden geproduceerd. Social media content is daar een van. De huidige eerstejaars GMD-studenten grepen die kans aan om hun creativiteit los te laten op een korte film. Het plezier en de energie spat er vanaf bij de lichting studenten van 2018-2019.</span></small></p>
 
     </div>
   </div>
-  
-  
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/image003.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Hoe maken we het Flevohuis groener!?</h4>
       <p class="card-text"><small class="text-muted"><span class="more">Voor de module HIPG zijn wij van februari tot en met juli bezig om een plan te maken om het Provinciehuis van Flevoland, ook wel het Flevohuis genoemd, te vergroenen. Het is een integraal project met studenten van de opleiding Geo, Media en Design.
- 
+
 Vandaag hadden wij een ontmoeting met onze opdrachtgever en kregen wij een rondleiding door het Flevohuis. Daarna hebben we op locatie aan onze opdracht kunnen werken. Dit is extra fijn omdat we snel antwoord konden krijgen op onze vragen.
- 
+
 We mogen voor een deel ook zelf onze beoordelingscriteria bepalen. Hierdoor kunnen we ook aangeven wat wij zelf interessant vinden om (extra) te onderzoeken. Wij hebben gekozen om een mood-book te maken wat onze keuzes visueel maakt voor de opdrachtgever. Ik vind het een leuke uitdaging om dit te doen en vooral omdat we samenwerken met studenten van een andere studie! Wij, als studenten BVG, kunnen de keuzes onderbouwen en de GMD studenten kunnen de keuzes visueel maken!
- 
+
 Annelise,
 Tweedejaars Biologie, Voeding en Gezondheid student Aeres Hogeschool Almere </span></small></p>
-   
+
     </div>
   </div>
-  
-  
-  
+
+
+
  <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/postnl.png" alt="Card image cap">
@@ -208,10 +227,10 @@ Tweedejaars Biologie, Voeding en Gezondheid student Aeres Hogeschool Almere </sp
       <p class="card-text"><small class="text-muted"><span class="more">Studenten 2GMD hebben in februari 2018 in Pakhuis de Zwijger in Amsterdam een staaltje van hun kunnen laten zien voor opdrachtgever PostNL. Aan de hand van een data-analyse hebben zij visualisaties laten zien over het ‘zwerfafval’ in Amsterdam. Zo hebben de studenten gekeken naar de gegevens die de postbezorgers hebben verzameld over binnengekomen klachten. Vervolgens hebben zij inzichtelijk gemaakt hoeveel procent van de meldingen daadwerkelijk gecontroleerd en afgehandeld wordt. In het Pakhuis presenteerden zij hun resultaten en hun advies aan PostNL in het bijzijn van vele geïnteresseerden. <a href=" https://3024259.wixsite.com/postnl-data">link Postnl</a></span></small></p>
     </div>
   </div>
-  
-  
-  
-  
+
+
+
+
 <!--  quote-->
   <div class="card p-3">
     <blockquote class="blockquote mb-0 card-body">
@@ -223,8 +242,8 @@ Tweedejaars Biologie, Voeding en Gezondheid student Aeres Hogeschool Almere </sp
       </footer>
     </blockquote>
   </div>
-  
-  
+
+
    <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/centimo.png" alt="Card image cap">
@@ -232,10 +251,10 @@ Tweedejaars Biologie, Voeding en Gezondheid student Aeres Hogeschool Almere </sp
       <h4 class="card-title">Jip op stage bij Centimo </h4>
       <p class="card-text">
         <p class="card-text"><small class="text-muted"><span class="more">‘Het afgelopen half jaar heb ik stage gelopen bij de bedrijven Centimo BV / Algencontrol BV / ABF Technologies BV in De Kwakel. Dit zijn drie bedrijven waar mijn stagebieder de eigenaar van is. Ik heb mij gericht op de marketing en design van de bedrijven. Opdrachten die ik in dit halve jaar allemaal heb gekregen, zijn bijvoorbeeld het maken van webshop / websites, nieuwsbrieven, logo's, (product-)foto's, infographics en nog veel meer.’</span></small></p>
-        
+
     </div>
   </div>
-  
+
 <!--  blauw -->
 <!--
   <div class="card bg-primary text-white text-center p-3">
@@ -249,15 +268,15 @@ Tweedejaars Biologie, Voeding en Gezondheid student Aeres Hogeschool Almere </sp
     </blockquote>
   </div>
 -->
-  
+
 <!--  alleen foto/beeld-->
   <div class="card">
     <img class="card-img" src="img/computereisen.svg" alt="Card image">
   </div>
-  
-  
-  
- <!--  grote text--> 
+
+
+
+ <!--  grote text-->
 <!--
   <div class="card">
     <div class="card-body">
@@ -267,17 +286,17 @@ Tweedejaars Biologie, Voeding en Gezondheid student Aeres Hogeschool Almere </sp
     </div>
   </div>
 -->
-  
-  
+
+
 <!--  beeld only-->
   <div class="card">
     <img class="card-img" src="img/GMD_cirkel.svg" alt="Card image">
   </div>
-  
-  
-  
-   
-  
+
+
+
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/fotowedstrijd.jpg" alt="Card image cap">
@@ -287,23 +306,23 @@ Tweedejaars Biologie, Voeding en Gezondheid student Aeres Hogeschool Almere </sp
       Waarom deze fotowedstrijd? Door het hele gebouw heen hangen wel veel foto’s, maar veel daarvan zijn niet echt gemaakt vanuit wat hier gebeurt. Dat kan beter, persoonlijker.
 Vandaar de oproep om foto’s in te sturen die kenmerkend zijn voor wat we hier doen en hoe we hier werken. Het thema is ‘jouw opleiding door jouw ogen’. We zoeken mooie beelden van allerlei situaties van de opleidingen, binnen en buiten dit gebouw.
 We willen graag bij de nieuwjaarsbijeenkomst een mooie tentoonstelling kunnen presenteren. Achterliggend doel is om in het dagelijks leven aan onszelf en bij Open Dagen aan het publiek een goed beeld te geven van wie we zijn en wat we doen. Daarom deze oproep om mee te doen en ook om studenten te activeren.
- 
+
 Stuur je foto op naar a.de.vries@aeres.nl, samen met een korte beschrijving van wanneer de foto is gemaakt en waarom het een mooi beeld is van een bepaalde onderwijssituatie. Om de foto groot af te kunnen drukken dient deze 6MB of groter te zijn. </span></small></p>
-   
+
     </div>
   </div>
-  
-  
+
+
   <!--  beeld only-->
   <div class="card">
     <img class="card-img" src="img/GMD_opzetstudie.svg" alt="Card image">
   </div>
-  
+
     <!--  beeld title & form-->
   <div class="card">
     <h4 class="card-title">Raad de plaats? </h4>
     <img class="card-img" src="img/alkmaar.jpg" alt="Card image">
-    
+
     <form>
 
 	<div class="form-group"> <!-- Radio group !-->
@@ -320,16 +339,16 @@ Stuur je foto op naar a.de.vries@aeres.nl, samen met een korte beschrijving van 
 			Alkmaar
 		  </label>
 		</div>
-	</div>		
+	</div>
 
 	<div class="form-group"> <!-- Submit button !-->
 		<button class="btn btn-primary " name="submit" type="submit">Submit</button>
-	</div>	
+	</div>
 </form>
   </div>
-  
-  
-  
+
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
@@ -337,10 +356,10 @@ Stuur je foto op naar a.de.vries@aeres.nl, samen met een korte beschrijving van 
       <h4 class="card-title">Studenten 3GMD presenteren hun stagebevindingen op symposium</h4>
       <p class="card-text"><small class="text-muted"><span class="more">
       Eind februari zijn de studenten uit 3GMD teruggekeerd van hun binnenlandstage. Gedurende een half jaar hebben zij de praktijk aan den lijve kunnen ondervinden en hun competenties kunnen aanscherpen. Bij terugkomst vertelden zij op een stagesymposium vol trots over hun bevindingen bij diverse werkgevers. Het stagesymposium zal een jaarlijks terugkerend fenomeen zijn waarbij het werkveld van harte welkom is. Studenten uit andere jaargangen kunnen hierdoor inspiratie opdoen en netwerken met bedrijven in aanloop naar hun stage; bedrijven kunnen vast kennis maken met het aankomende talent en andere bedrijven plus docenten ontmoeten. </span></small></p>
-   
+
     </div>
   </div>
-  
+
   <!--beeld en tekst incl read more zoek beeld jordi morsink of lantaarnpaal-->
 <!--
   <div class="card">
@@ -349,11 +368,11 @@ Stuur je foto op naar a.de.vries@aeres.nl, samen met een korte beschrijving van 
       <h4 class="card-title"> Gemeente Den Haag wordt smart city </h4>
       <p class="card-text"><small class="text-muted"><span class="more">
       ‘De afgelopen maanden heb ik stage gelopen bij de gemeente Den Haag. Daar heb ik mij beziggehouden met het onzichtbare zichtbaar maken (augmented reality), Smart Cities en het bouwen van een website.’ </span></small></p>
-   
+
     </div>
   </div>
 -->
-  
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/Charlotte.jpg" alt="Card image cap">
@@ -361,14 +380,14 @@ Stuur je foto op naar a.de.vries@aeres.nl, samen met een korte beschrijving van 
       <h4 class="card-title">Charlotte Hovenier vindt Geodomein  </h4>
       <p class="card-text"><small class="text-muted"><span class="more">
       ‘Geodomein begeleidt personen en teams om hun route te vinden, om een positieve invloed te leveren in de wereld. Het is een groeiend bedrijf en hierdoor zijn er volop kansen om jezelf te ontwikkelen. Deze kansen zijn bij grotere bedrijven minder voor de hand liggend. Daarnaast is het enthousiasme van de oprichtster van het bedrijf inspirerend. Het is een stageplek waar ook ruimte is om op zoek te gaan naar waar je passie ligt. Tijdens de stage heb ik mij onder andere beziggehouden met de rebranding van het bedrijf. Hierbij kan je denken aan het ontwerpen van een logo en het vernieuwen van de website.’  </span></small></p>
-   
+
     </div>
   </div>
-  
+
   <div class="card">
     <h4 class="card-title">Raad de plaats?</h4>
     <img class="card-img" src="img/Eindhoven.jpg" alt="Card image">
-    
+
     <form>
 
 	<div class="form-group"> <!-- Radio group !-->
@@ -385,27 +404,27 @@ Stuur je foto op naar a.de.vries@aeres.nl, samen met een korte beschrijving van 
 			Eindhoven
 		  </label>
 		</div>
-	</div>		
+	</div>
 
 	<div class="form-group"> <!-- Submit button !-->
 		<button class="btn btn-primary " name="submit" type="submit">Submit</button>
 	</div>
-	
+
 </form>
   </div>
-  
+
   <!--beeld en tekst incl read more-->
   <div class="card">
-   
-    <iframe width="320" height="240" src="https://www.youtube.com/embed/GfX-tlAnoTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/GfX-tlAnoTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="card-body">
       <h4 class="card-title">Ruben Koskamp / Agrifac  </h4>
       <p class="card-text"><small class="text-muted"><span class="more">
       ‘Agrifac is een fabrikant van veldspuiten en bietenrooiers gevestigd te Steenwijk. Ik heb hier geholpen bij de ontwikkeling en promotie van DynamicDosePlus en StrictSprayPlus.’  </span></small></p>
-   
+
     </div>
   </div>
-  
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
@@ -413,68 +432,68 @@ Stuur je foto op naar a.de.vries@aeres.nl, samen met een korte beschrijving van 
       <h4 class="card-title">Ben Sinnige / Gemeente Almere – Stadsreiniging - Project Upcyclecentrum  </h4>
       <p class="card-text"><small class="text-muted"><span class="more">
       ‘De gemeente Almere heeft als ambitie een energieneutrale en afvalloze stad te worden. Het Upcyclecentrum is een concrete uitwerking van deze ambitie. In het overdekte Upcyclecentrum kunnen Almeerders hun “afval” gescheiden inleveren. Maar er zijn ook creatieve werkplaatsen, waar ondernemers reststromen verwerken tot nieuwe producten. Verder is er een educatiecentrum: een inspirerende ruimte gericht op inwoners, studenten en producenten met als doel het circulair gedachtegoed verder te verspreiden. Tijdens mijn stage heb ik in een projectteam gewerkt aan de opening van het Upcyclecentrum. Ik heb mij voornamelijk beziggehouden met het inzichtelijk maken van informatie. Dit uitte zich vaak in het ontwerpen van informatieborden.‘ </span></small></p>
-   
+
     </div>
   </div>
-  
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" id="bekkema">
       <h4 class="card-title">Sigrid Bekkema / Natuur en Milieufederatie Utrecht (NMU)  </h4>
       <p class="card-text"><small class="text-muted"><span class="more">
       ‘De NMU werkt aan een mooie en duurzame provincie Utrecht: een provincie met een mooi landschap, een rijke natuur en een schoon milieu. Een provincie waar men duurzaam kan wonen en werken, zodat de toekomstige bewoners van Utrecht en ook mensen later en elders van een gezonde leefomgeving kunnen genieten. Ik heb als communicatie en campagne stagiair veel verschillende beroepsrollen mogen ervaren. In een half jaar tijd heb ik gefigureerd als cameravrouw, designer, ontwerper, editor, copywriter, sociale media medewerker, eventmanager, journalist, website bouwer, fotograaf etc. Deze taken heb ik uitgevoerd in verschillende lopende campagnes, waaronder de landelijke Nacht van de Nacht, Gezond op Pad, Duurzaam Boeren, Groen aan de Buurt, Servicepunt Circulaire Samenleving, en de Duurzaamheidsprijs.’ </span></small></p>
-   
+
     </div>
   </div>
-  
-  
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Bram van den Berg / ANNE </h4>
       <p class="card-text"><small class="text-muted"><span class="more">‘ANNE staat voor Alle Nederlanders Naar Energieneutraal. Dit is een experience center voor duurzame oplossingen om een huis of pand te verduurzamen. Ook kunnen hier vergaderingen en evenementen gehouden worden. Ik heb mij hier voornamelijk beziggehouden met de grafische vormgeving. Zo heb ik infographics, filmpjes, flyers enz. gemaakt. ANNE is nog niet af, dus ook heb ik geholpen met klusjes om ANNE nog beter te maken.’  </span></small></p>
-   
+
     </div>
   </div>
-  
-  
-  
+
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Kai Keijsers / Gemeente Almere, afdeling Geo-data </h4>
       <p class="card-text"><small class="text-muted"><span class="more">‘Het afgelopen half jaar heb ik stage mogen lopen bij de gemeente Almere. Geo-data zorgt voor de levering van alle kaarten binnen de gemeente, houdt de BAG, BGT etc. bij en zorgt voor innovatie binnen de sector. Ik heb veel geleerd over GIS en ik ben veel aan de slag geweest met Design. Kaarten maken voor interne opdrachtgevers en ervoor zorgen dat deze kaarten er goed uitzien. Tijdens mijn stage heb ik aan mijn netwerk kunnen werken. De sfeer op de afdeling Geo-data zorgt voor een prima werkomgeving.’ </span></small></p>
-   
+
     </div>
   </div>
-  
-  
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Roeland van de Glind / Het Instituut voor Biodiversiteit en Ecosysteem Dynamica (IBED) van UVA </h4>
       <p class="card-text"><small class="text-muted"><span class="more">‘Het afgelopen halfjaar heb ik stage gelopen bij de GIS-studio van de Universiteit van Amsterdam. Hier heb ik onder andere meegeholpen met het aanmaken van webservices voor het Geoportal van de UvA. Op het Geoportal kunnen studenten en medewerkers van de UvA kaartlagen vinden voor de projecten waarmee ze bezig zijn.’  </span></small></p>
-   
+
     </div>
   </div>
-  
-  
-  
+
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Enzo Deroma /Gemeente Almere, Geo-Data </h4>
       <p class="card-text"><small class="text-muted"><span class="more">‘Ik heb de laatste zes maanden mee mogen lopen bij de afdeling Geo-Data van de gemeente Almere. Op deze innovatieve werkvloer wordt gewerkt met geo-informatie van overal binnen de gemeente. In mijn stageperiode heb ik meegewerkt aan dagelijkse taken, zoals het beantwoorden van vraagstukken buiten de afdeling en ook heb ik mee mogen kijken naar hoe de toekomst van Almere in kaart wordt gebracht.’ </span></small></p>
-   
+
     </div>
   </div>
-  
-  
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
@@ -483,42 +502,42 @@ Stuur je foto op naar a.de.vries@aeres.nl, samen met een korte beschrijving van 
 rondt succesvol zelfevaluatie af </h4>
       <p class="card-text"><small class="text-muted"><span class="more">De nu bijna drie jaar oude opleiding Geo Media & Design (GMD) hier in Almere heeft zichzelf succesvol onderworpen aan een zelfevaluatie. Hiermee heeft ze bij accreditatieorganisatie NVAO aangetoond goed onderwijsbeleid te voeren en de kwaliteit te kunnen borgen van de opleiding. In de Nationale Studenten Enquete (feb 2017) krijgt GMD (4,05) een aanzienlijk hogere beoordeling dan het landelijk gemiddelde (3,66) voor de kwaliteit van de docenten. Ook de beoordeling voor studiebegeleiding ligt met 3,89 hoger dan het landelijk gemiddelde (3,54). Kwaliteitszorg ligt met 3,65 eveneens hoger dan gemiddeld (3,25).
 
-GMD is een multidisciplinaire studie met aardrijkskunde, nieuwe media en ontwerpen en vormgeven als basis. Studenten ontwikkelen zich op het gebied van datavisualisatie, infographic design, data-analyse, GIS en cartografie. Ze worden eigentijdse geografen die weten wat er in de wereld en het vakgebied speelt. Daarbij zijn ze in staat om complexe informatie en data concreet te maken: ze duiden wat dit betekent voor de maatschappij, nu en morgen. Ook zijn ze goed in staat dit beeldend te visualiseren, via apps, websites, infographics en interactieve kaarten. 
+GMD is een multidisciplinaire studie met aardrijkskunde, nieuwe media en ontwerpen en vormgeven als basis. Studenten ontwikkelen zich op het gebied van datavisualisatie, infographic design, data-analyse, GIS en cartografie. Ze worden eigentijdse geografen die weten wat er in de wereld en het vakgebied speelt. Daarbij zijn ze in staat om complexe informatie en data concreet te maken: ze duiden wat dit betekent voor de maatschappij, nu en morgen. Ook zijn ze goed in staat dit beeldend te visualiseren, via apps, websites, infographics en interactieve kaarten.
 
-Beroepsprofielen waar de studie voor opleidt, zijn: geo-projectleider, adviseur ruimte & locatie, geo-redacteur, geodata-specialist, geodata-journalist, stadsgeograaf, ruraal geograaf, geo-productontwikkelaar, geo-onderzoeker, cartograaf en grafisch vormgever, plus ontwikkelaar locatiediensten. De beroepsprofielen en eindkwalificaties zijn landelijk vastgesteld en door het werkveld bekrachtigd. Verder is er met HAS Den Bosch, de andere aanbieder van de opleiding GMD, overleg over de verschillende inkleuring van de twee opleidingen. 
+Beroepsprofielen waar de studie voor opleidt, zijn: geo-projectleider, adviseur ruimte & locatie, geo-redacteur, geodata-specialist, geodata-journalist, stadsgeograaf, ruraal geograaf, geo-productontwikkelaar, geo-onderzoeker, cartograaf en grafisch vormgever, plus ontwikkelaar locatiediensten. De beroepsprofielen en eindkwalificaties zijn landelijk vastgesteld en door het werkveld bekrachtigd. Verder is er met HAS Den Bosch, de andere aanbieder van de opleiding GMD, overleg over de verschillende inkleuring van de twee opleidingen.
 
  </span></small></p>
-   
+
     </div>
   </div>
-  
-  
-  
-  
+
+
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Enzo Deroma /Gemeente Almere, Geo-Data </h4>
       <p class="card-text"><small class="text-muted"><span class="more">‘Ik heb de laatste zes maanden mee mogen lopen bij de afdeling Geo-Data van de gemeente Almere. Op deze innovatieve werkvloer wordt gewerkt met geo-informatie van overal binnen de gemeente. In mijn stageperiode heb ik meegewerkt aan dagelijkse taken, zoals het beantwoorden van vraagstukken buiten de afdeling en ook heb ik mee mogen kijken naar hoe de toekomst van Almere in kaart wordt gebracht.’ </span></small></p>
-   
+
     </div>
   </div>
-  
-  
+
+
   <!--beeld en tekst incl read more-->
   <div class="card">
     <img class="card-img-top rounded" src="img/17102GMDa.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Enzo Deroma /Gemeente Almere, Geo-Data </h4>
       <p class="card-text"><small class="text-muted"><span class="more">‘Ik heb de laatste zes maanden mee mogen lopen bij de afdeling Geo-Data van de gemeente Almere. Op deze innovatieve werkvloer wordt gewerkt met geo-informatie van overal binnen de gemeente. In mijn stageperiode heb ik meegewerkt aan dagelijkse taken, zoals het beantwoorden van vraagstukken buiten de afdeling en ook heb ik mee mogen kijken naar hoe de toekomst van Almere in kaart wordt gebracht.’ </span></small></p>
-   
+
     </div>
   </div>
- 
+
   <div class="card text-center">
   <div class="card-header">
-    contact in de polder 
+    contact in de polder
   </div>
   <div class="card-body">
     <h5 class="card-title">Aeres Hogeschool Almere afdeling Geo Media & Design</h5>
@@ -532,10 +551,10 @@ Beroepsprofielen waar de studie voor opleidt, zijn: geo-projectleider, adviseur 
   </div>
 -->
 </div>
-  
-  
-  
-  
+
+
+
+
 </div>
 
 
@@ -546,23 +565,23 @@ Beroepsprofielen waar de studie voor opleidt, zijn: geo-projectleider, adviseur 
     var ellipsestext = "...";
     var moretext = "meer lezen >";
     var lesstext = "terug";
-    
+
 
     $('.more').each(function() {
         var content = $(this).html();
- 
+
         if(content.length > showChar) {
- 
+
             var c = content.substr(0, showChar);
             var h = content.substr(showChar, content.length - showChar);
- 
+
             var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
- 
+
             $(this).html(html);
         }
- 
+
     });
- 
+
     $(".morelink").click(function(){
         if($(this).hasClass("less")) {
             $(this).removeClass("less");
@@ -575,6 +594,17 @@ Beroepsprofielen waar de studie voor opleidt, zijn: geo-projectleider, adviseur 
         $(this).prev().toggle();
         return false;
     });
+
+
+    // if parameter show exists, Scroll to and trigger a click on the card to show
+    $.urlParam = function(name){	var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href); return results[1] || 0; }
+    var show = $.urlParam('show');
+	var top = $(".card")[show].offsetTop; //Getting Y of target element
+	$(".card").eq(show).attr("id","view");
+	document.location.href="#view";
+    $(".morelink")[show].click();
+
+		
 });
 //var lineHeight = 20;
 //var numLines = 1;
@@ -584,7 +614,10 @@ Beroepsprofielen waar de studie voor opleidt, zijn: geo-projectleider, adviseur 
 //  collapsedHeight: lineHeight * numLines,
 //  heightMargin: lineHeight * 1
 //});
-//    
+//
+	
+
+
     </script>
 
 <!--
@@ -596,15 +629,15 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "lees verder"; 
+    btnText.innerHTML = "lees verder";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "terug"; 
+    btnText.innerHTML = "terug";
     moreText.style.display = "inline";
   }
 }
 </script>
 -->
-</body>    
+</body>
 </html>
